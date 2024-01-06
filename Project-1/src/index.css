@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300&family=Raleway&family=Roboto&family=Source+Code+Pro:wght@300&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 1440px; 
+  height: 72px;
+  margin: 0 auto;
+  align-items: center;
+}
+.ul-list{
+  list-style: none;
+  display: flex;
+}
+.ul-list li{
+  padding: 0px 24px;
+  cursor: pointer;
+  &:hover{
+    color: #D01C28;
+  }
+}
+
+.btn{
+  color: #FFF;
+  height: 31px;
+  padding: 6px 16px;
+  background: #D01C28;  
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  &:hover{
+    background-color: #a94141;
+    color: black;
+  }
+}
+.secondary_btn{
+  color: var(--GRAY, #5A5959);
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 6px 16px;
+  font-family: Inter;
+  border: 1px solid #000;
+  cursor: pointer;
+  &:hover{
+    background-color: rgb(144, 134, 134);
+    color: black;
+  }
+}
+
+
+
+/* Main-component CSS */
+.Main{
+  display: flex;
+  padding-top: 80px;
+  width: 1125px;
+  height: 613px;
+  margin: 0 auto;
+}
+.head-text{
+  width: 50%;
+}
+.head-text p{
+  width: 595px;
+  height: 255px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 85px;
+  margin: 0px;
+}
+.head-text h5{
+  width: 404px;
+  color: var(--GRAY, #5A5959);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  width: 404px;
+  height: 91px;   
+}
+.right{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 50%;
+}
+.image{
+  width: 80%;
+}
+.image img{
+  width: 100%;
+  padding: 15px 0px;
+}
+.btn_two{
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+.shopping{
+  margin-top: 36px;
+}
+.shopping p{
+  font-size: 14px; 
+  margin-bottom: 16px;
+  height: 30px;
+  width: 0px;
+  font-weight: 400;
+  color: var(--GRAY, #5A5959);;
+  line-height: 30px;
+  white-space: nowrap;
+}
+.shopping img{
+  padding-right: 16px;
+}
